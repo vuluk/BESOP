@@ -205,7 +205,7 @@ legend {
 }
 
 .placeHolderTree {
-	height: 200px;
+	min-height: 200px;
 	border: 1px solid #ccc;
 	margin-left: 15px;
 	margin-right: 15px;
@@ -241,6 +241,35 @@ legend {
 	margin-bottom: 30px;
 	line-height: 1.8;
 }
-.checkboxX{width:50%!important;display:block;float:left;}
-.checkboxX label{font-weight:300!important;}
 
+.checkboxX {
+	width: 50%!important;
+	display: block;
+	float: left;
+}
+
+.checkboxX label {
+	font-weight: 300!important;
+}
+
+.arbolCerrado {}
+
+.arbolAbierto {}
+
+.modal-dialog1 {
+	width: 65%;
+	margin: 30px auto;
+}
+
+.mapaPlaceholder {
+	border: 1px solid #eeeeee;
+	min-height: 500px;
+	float: right;
+	width: 100%;
+	margin: 0 0 20px 0;
+}
+
+table caption {
+	font-weight: 600;
+	font-size: 18px;
+}

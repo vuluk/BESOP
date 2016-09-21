@@ -80,160 +80,161 @@
 				<div class="col-sm-12 bottom-buffer">
 					<!--form starts-->
 					<div class="bottom-buffer">
-						<form role="form" class="clearfix">
-							<h2>Criterios de búsqueda</h2>
-							<hr class="red">
-							<h3>Criterios de búsqueda por área</h3>
-							<div class="row">
-								<div class="col-md-4">
-									<div class="form-group">
-										<label for="entidadFederativa"><a href="#">Entidad federativa:&nbsp;<span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></label>
-										<input type="text" id="entidadFederativa" class="form-control" placeholder="Entidad federativa"> </div>
-								</div>
-								<div class="col-md-4">
-									<div class="form-group">
-										<label for="ente"><a href="#">Ente:&nbsp;<span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></label>
-										<input type="text" id="ente" class="form-control" placeholder="Ente"> </div>
-								</div>
-								<div class="col-md-4">
-									<div class="form-group">
-										<label for="unidadEjecutora">Unidad ejecutora:</label>
-										<select class="form-control" id="unidadEjecutora">
-											<option>opción 1</option>
-											<option>opción 2</option>
-										</select>
-									</div>
+						<!--<form class="clearfix">-->
+						<h2>Criterios de búsqueda</h2>
+						<hr class="red">
+						<h3>Criterios de búsqueda por área</h3>
+						<div class="row">
+							<div class="col-md-4">
+								<div class="form-group">
+									<label for="entidadFederativa"><a href="#">Entidad federativa:&nbsp;<span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></label>
+									<input type="text" id="entidadFederativa" class="form-control" placeholder="Entidad federativa"> </div>
+							</div>
+							<div class="col-md-4">
+								<div class="form-group">
+									<label for="ente"><a href="#">Ente:&nbsp;<span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></label>
+									<input type="text" id="ente" class="form-control" placeholder="Ente"> </div>
+							</div>
+							<div class="col-md-4">
+								<div class="form-group">
+									<label for="unidadEjecutora">Unidad ejecutora:</label>
+									<select class="form-control" id="unidadEjecutora">
+										<option>opción 1</option>
+										<option>opción 2</option>
+									</select>
 								</div>
 							</div>
-							<hr>
-							<h3>Criterios de búsqueda por contrato </h3>
-							<div class="row">
-								<div class="col-md-4">
-									<div class="form-group">
-										<label for="numeroContrato">Número de contrato:</label>
-										<input type="text" id="numeroContrato" class="form-control" placeholder="Ingrese número de contrato"> </div>
-								</div>
-								<div class="col-md-4">
-									<div class="form-group">
-										<label for="numeroDeProcedimientoContratacion">No. de procedimiento de contratación:</label>
-										<input type="text" id="numeroDeProcedimientoContratacion" class="form-control" placeholder="Número de procedimiento"> </div>
-								</div>
-								<div class="col-md-4">
-									<div class="form-group">
-										<label for="estatusContrato">Estatus de contrato:</label>
-										<select class="form-control" id="estatusContrato">
-											<option>opción 1</option>
-											<option>opción 2</option>
-										</select>
-									</div>
-								</div>
+						</div>
+						<hr>
+						<h3>Criterios de búsqueda por contrato </h3>
+						<div class="row">
+							<div class="col-md-4">
+								<div class="form-group">
+									<label for="numeroContrato">Número de contrato:</label>
+									<input type="text" id="numeroContrato" class="form-control" placeholder="Ingrese número de contrato"> </div>
 							</div>
-							<div class="row">
-								<div class="col-md-4">
-									<div class="form-group">
-										<label for="contratista"><a href="#">Contratista:&nbsp;<span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></label>
-										<input type="text" id="contratista" class="form-control" placeholder="Contratista"> </div>
+							<div class="col-md-4">
+								<div class="form-group">
+									<label for="numeroDeProcedimientoContratacion">No. de procedimiento de contratación:</label>
+									<input type="text" id="numeroDeProcedimientoContratacion" class="form-control" placeholder="Número de procedimiento"> </div>
+							</div>
+							<div class="col-md-4">
+								<div class="form-group">
+									<label for="estatusContrato">Estatus de contrato:</label>
+									<select class="form-control" id="estatusContrato">
+										<option>opción 1</option>
+										<option>opción 2</option>
+									</select>
 								</div>
 							</div>
-							<div class="row">
-								<fieldset>
-									<legend class="col-md-12">Monto</legend>
-									<div class="col-md-4">
-										<div class="form-group">
-											<label for="montoDesde">Desde:</label>
-											<input type="text" id="montoDesde" class="form-control" placeholder=""> </div>
-									</div>
-									<div class="col-md-4">
-										<div class="form-group">
-											<label for="montoHasta">Hasta:</label>
-											<input type="text" id="montoHasta" class="form-control" placeholder=""> </div>
-									</div>
-								</fieldset>
+						</div>
+						<div class="row">
+							<div class="col-md-4">
+								<div class="form-group">
+									<label for="contratista"><a href="#">Contratista:&nbsp;<span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></label>
+									<input type="text" id="contratista" class="form-control" placeholder="Contratista"> </div>
 							</div>
-							<div class="row">
-								<fieldset>
-									<legend class="col-md-12">Fecha de inicio contractual</legend>
-									<div class="col-md-4">
-										<div class="form-group datepicker-group ">
-											<label class="control-label" for="inicioContrato">Desde:</label>
-											<input type="text" class="form-control datepicker hasDatepicker" id="inicioContrato" placeholder="  /   /  "> <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> </div>
-									</div>
-									<div class="col-md-4">
-										<div class="form-group datepicker-group ">
-											<label class="control-label" for="inicioHastaContrato">Hasta:</label>
-											<input type="text" class="form-control datepicker hasDatepicker" id="inicioHastaContrato" placeholder="  /   /  "> <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> </div>
-									</div>
-								</fieldset>
-							</div>
-							<div class="row">
-								<fieldset>
-									<legend class="col-md-12">Fecha de término contractual</legend>
-									<div class="col-md-4">
-										<div class="form-group datepicker-group ">
-											<label class="control-label" for="inicioTerminoContrato">Desde:</label>
-											<input type="text" class="form-control datepicker hasDatepicker" id="inicioTerminoContrato" placeholder="  /   /  "> <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> </div>
-									</div>
-									<div class="col-md-4">
-										<div class="form-group datepicker-group ">
-											<label class="control-label" for="HastaTerminoContrato">Hasta:</label>
-											<input type="text" class="form-control datepicker hasDatepicker" id="HastaTerminoContrato" placeholder="  /   /  "> <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> </div>
-									</div>
-								</fieldset>
-							</div>
-							<hr>
-							<div class="row">
-								<div class="col-md-12">
-									<div class="checkbox">
-										<label>
-											<input type="checkbox"> Contratos con excepción de bitácora electrónica</label>
-									</div>
-								</div>
-							</div>
-							<hr>
-							<h3>Criterios de búsqueda por ubicación </h3>
-							<div class="row">
+						</div>
+						<div class="row">
+							<fieldset>
+								<legend class="col-md-12">Monto</legend>
 								<div class="col-md-4">
 									<div class="form-group">
-										<label for="estado">Estado:</label>
-										<select class="form-control" id="estado">
-											<option>estado 1</option>
-											<option>estado 2</option>
-										</select>
-									</div>
+										<label for="montoDesde">Desde:</label>
+										<input type="text" id="montoDesde" class="form-control" placeholder=""> </div>
 								</div>
 								<div class="col-md-4">
 									<div class="form-group">
-										<label for="delegacion">Delegación o municipio:</label>
-										<select class="form-control" id="delegacion">
-											<option>Delegación o municipio 1</option>
-											<option>Delegación o municipio 2</option>
-										</select>
-									</div>
+										<label for="montoHasta">Hasta:</label>
+										<input type="text" id="montoHasta" class="form-control" placeholder=""> </div>
+								</div>
+							</fieldset>
+						</div>
+						<div class="row">
+							<fieldset>
+								<legend class="col-md-12">Fecha de inicio contractual</legend>
+								<div class="col-md-4">
+									<div class="form-group datepicker-group ">
+										<label class="control-label" for="inicioContrato">Desde:</label>
+										<input type="text" class="form-control datepicker hasDatepicker" id="inicioContrato" placeholder="  /   /  "> <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> </div>
 								</div>
 								<div class="col-md-4">
-									<div class="form-group">
-										<label for="localidad">Localidad:</label>
-										<select class="form-control" id="localidad">
-											<option>localidad 1</option>
-											<option>localidad 2</option>
-										</select>
-									</div>
+									<div class="form-group datepicker-group ">
+										<label class="control-label" for="inicioHastaContrato">Hasta:</label>
+										<input type="text" class="form-control datepicker hasDatepicker" id="inicioHastaContrato" placeholder="  /   /  "> <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> </div>
+								</div>
+							</fieldset>
+						</div>
+						<div class="row">
+							<fieldset>
+								<legend class="col-md-12">Fecha de término contractual</legend>
+								<div class="col-md-4">
+									<div class="form-group datepicker-group ">
+										<label class="control-label" for="inicioTerminoContrato">Desde:</label>
+										<input type="text" class="form-control datepicker hasDatepicker" id="inicioTerminoContrato" placeholder="  /   /  "> <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> </div>
+								</div>
+								<div class="col-md-4">
+									<div class="form-group datepicker-group ">
+										<label class="control-label" for="HastaTerminoContrato">Hasta:</label>
+										<input type="text" class="form-control datepicker hasDatepicker" id="HastaTerminoContrato" placeholder="  /   /  "> <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> </div>
+								</div>
+							</fieldset>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="checkbox">
+									<label>
+										<input type="checkbox"> Contratos con excepción de bitácora electrónica</label>
 								</div>
 							</div>
-							<!--botones-->
-							<div class="row">
-								<div class="col-md-8 col-md-offset-4">
-									<hr> </div>
-							</div>
-							<div class="clearfix">
-								<div class="pull-right">
-									<button class="btn btn-default" type="submit">Nuevo</button>
-									<button class="btn btn-default" type="submit">Limpiar</button>
-									<button class="btn btn-danger" type="submit">Cancelar</button>
-									<button class="btn btn-primary" type="submit">Buscar</button>
+						</div>
+						<hr>
+						<h3>Criterios de búsqueda por ubicación </h3>
+						<div class="row">
+							<div class="col-md-4">
+								<div class="form-group">
+									<label for="estado">Estado:</label>
+									<select class="form-control" id="estado">
+										<option>estado 1</option>
+										<option>estado 2</option>
+									</select>
 								</div>
 							</div>
-							<hr> </form>
+							<div class="col-md-4">
+								<div class="form-group">
+									<label for="delegacion">Delegación o municipio:</label>
+									<select class="form-control" id="delegacion">
+										<option>Delegación o municipio 1</option>
+										<option>Delegación o municipio 2</option>
+									</select>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="form-group">
+									<label for="localidad">Localidad:</label>
+									<select class="form-control" id="localidad">
+										<option>localidad 1</option>
+										<option>localidad 2</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<!--botones-->
+						<div class="row">
+							<div class="col-md-8 col-md-offset-4">
+								<hr> </div>
+						</div>
+						<div class="clearfix">
+							<div class="pull-right">
+								<button class="btn btn-default" type="submit" data-toggle="modal" data-target="#foo5">Nuevo</button>
+								<button class="btn btn-default" type="submit">Limpiar</button>
+								<button class="btn btn-danger" type="submit">Cancelar</button>
+								<button class="btn btn-primary" type="submit">Buscar</button>
+							</div>
+						</div>
+						<hr>
+						<!--</form>-->
 					</div>
 					<!--form ends-->
 					<h3>Resultados</h3>
@@ -249,7 +250,7 @@
 									<button class="btn-xs btn-default" type="submit"><span class="glyphicon glyphicon-edit"></span> Editar</button>
 								</li>
 								<li>
-									<button class="btn-xs btn-default" type="submit"><span class="glyphicon glyphicon-trash"></span> Eliminar contrato</button>
+									<button class="btn-xs btn-default" type="submit" data-toggle="modal" data-target="#foo"><span class="glyphicon glyphicon-trash"></span> Eliminar contrato</button>
 								</li>
 								<li>
 									<button class="btn-xs btn-default" type="submit"><span class="glyphicon glyphicon-print"></span> Imprimir bitácora</button>
@@ -258,7 +259,7 @@
 									<button class="btn-xs btn-default" type="submit"><span class="glyphicon glyphicon-pushpin"></span> Casos de excepción</button>
 								</li>
 								<li>
-									<button class="btn-xs btn-default" type="submit"><span class="glyphicon glyphicon-ok-sign"></span> Validar BESOP</button>
+									<button class="btn-xs btn-default" type="submit" data-toggle="modal" data-target="#foo3"><span class="glyphicon glyphicon-ok-sign"></span> Validar BESOP</button>
 								</li>
 							</ul>
 						</div>
@@ -375,6 +376,167 @@
 			</div>
 		</div>
 	</main>
+	<!--modal 1-->
+	<div id="foo" class="modal fade">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title">Eliminar contrato</h4> </div>
+				<div class="modal-body">
+					<p>¿Está seguro de eliminar el registro del contrato?</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+					<button type="button" class="btn btn-primary">Aceptar</button>
+				</div>
+			</div>
+			<!-- /.modal-content -->
+		</div>
+		<!-- /.modal-dialog -->
+	</div>
+	<!-- /.modal 1-->
+	<!--modal 2-->
+	<div id="foo2" class="modal fade">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title">Solicitar eliminación</h4> </div>
+				<div class="modal-body">
+					<p>La eliminación sólo puede ser autorizada por la Unidad de Control y Auditoría a Obra Pública. Consulta los requisitos necesarios en el módulo de trámites o con la mesa de ayuda beop@funcionpublica.gob.mx</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary">Aceptar</button>
+				</div>
+			</div>
+			<!-- /.modal-content -->
+		</div>
+		<!-- /.modal-dialog -->
+	</div>
+	<!-- /.modal 2-->
+	<!--Validar Besop-->
+	<div id="foo3" class="modal fade">
+		<div class="modal-dialog1">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title">Búsqueda de contratos en BESOP</h4> </div>
+				<div class="modal-body">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="numeroContratoX">Número de contrato:</label>
+								<input type="text" id="numeroContratoX" class="form-control" placeholder="Ingrese número de contrato"> </div>
+						</div>
+					</div>
+					<div class="row">
+						<fieldset>
+							<p class="col-md-12"><strong>Fecha de inicio contractual</strong></p>
+							<div class="col-md-6">
+								<div class="form-group datepicker-group ">
+									<label class="control-label" for="inicioContratox">Desde:</label>
+									<input type="text" class="form-control datepicker hasDatepicker" id="inicioContratox" placeholder="  /   /  "> <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> </div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group datepicker-group ">
+									<label class="control-label" for="inicioHastaContratox">Hasta:</label>
+									<input type="text" class="form-control datepicker hasDatepicker" id="inicioHastaContratox" placeholder="  /   /  "> <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> </div>
+							</div>
+						</fieldset>
+					</div>
+					<div class="row">
+						<fieldset>
+							<p class="col-md-12"><strong>Fecha de término contractual</strong></p>
+							<div class="col-md-6">
+								<div class="form-group datepicker-group ">
+									<label class="control-label" for="inicioTerminoContratox">Desde:</label>
+									<input type="text" class="form-control datepicker hasDatepicker" id="inicioTerminoContratox" placeholder="  /   /  "> <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> </div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group datepicker-group ">
+									<label class="control-label" for="HastaTerminoContratox">Hasta:</label>
+									<input type="text" class="form-control datepicker hasDatepicker" id="HastaTerminoContratox" placeholder="  /   /  "> <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> </div>
+							</div>
+						</fieldset>
+					</div>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-4">
+							<hr> </div>
+					</div>
+					<div class="clearfix">
+						<div class="pull-right">
+							<button class="btn btn-default" type="submit">Limpiar</button>
+							<button class="btn btn-danger" type="submit">Cancelar</button>
+							<button class="btn btn-primary" type="submit">Buscar</button>
+						</div>
+					</div>
+					<hr>
+					<div class="tablewindow">
+						<table class="table table-striped">
+							<thead>
+								<tr>
+									<th>Número de contrato</th>
+									<th>Objeto del contrato</th>
+									<th>Fecha de inicio contractual</th>
+									<th>Fecha de término</th>
+									<th>Selección</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th scope="row">1</th>
+									<td>sdfsdf</td>
+									<td>fsdfsdf</td>
+									<td>sdfsdf</td>
+									<td>
+										<input type="checkbox" name="name1" />&nbsp;</td>
+								</tr>
+								<tr>
+									<th scope="row">2</th>
+									<td>Jacob</td>
+									<td>Thornton</td>
+									<td>@fat</td>
+									<td>
+										<input type="checkbox" name="name1" />&nbsp;</td>
+								</tr>
+								<tr>
+									<th scope="row">3</th>
+									<td>Larry</td>
+									<td>the Bird</td>
+									<td>@twitter</td>
+									<td>
+										<input type="checkbox" name="name1" />&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary">Validar</button>
+				</div>
+			</div>
+			<!-- /.modal-content -->
+		</div>
+		<!-- /.modal-dialog -->
+	</div>
+	<!-- /.Validar Besop-->
+	<!--modal 5-->
+	<div id="foo5" class="modal fade">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title">Registrar contrato</h4> </div>
+				<div class="modal-body">
+					<p>Seleccione el orden de gobierno correspondiente al contrato a capturar</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default">Contrato APF</button>
+					<button type="button" class="btn btn-default">Contrato APE</button>
+				</div>
+			</div>
+			<!-- /.modal-content -->
+		</div>
+		<!-- /.modal-dialog -->
+	</div>
+	<!-- /.modal 5-->
 	<!-- JS -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script src="https://framework-gb.cdn.gob.mx/gobmx.js"></script>
