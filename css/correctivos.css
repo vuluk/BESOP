@@ -1,0 +1,246 @@
+@charset "utf-8";
+.form-group-x {
+	padding-top: 22px;
+	margin-bottom: 15px;
+}
+
+.checkbox-x {
+	position: relative;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: left;
+	margin-right: 20px;
+	font-weight: 400 !important;
+}
+
+.flag-banner>img {
+	position: absolute;
+	width: 360px!important;
+	height: 84px!important;
+	top: 50%!important;
+	left: 50%;
+	margin-top: -45px;
+	margin-left: -181px!important;
+}
+
+.flag-banner {
+	position: relative;
+	background-image: url(background_gob.jpg);
+	margin-bottom: 20px!important;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 320px;
+	background-position: center center;
+}
+
+.checkbox-x label {
+	font-weight: normal;
+}
+
+#subscribete fieldset {
+	border: 0px!important;
+	margin: 0!important;
+	padding: 0!important;
+}
+
+.envelopeBesop {
+	background: white;
+	border: 1px solid #eeeeee;
+	border-radius: 3px 3px 0 0;
+	margin: 10px 0 30px 0;
+	moz-border-radius: 3px 3px 0 0;
+	padding: 25px 25px;
+	position: relative;
+	webkit-border-radius: 3px 3px 0 0;
+}
+
+h1,
+h2,
+h3 {
+	margin-bottom: 23.33px
+}
+
+.user-credencials {
+	position: static !important;
+	left: 0;
+	right: 0;
+	margin: 16px 15px;
+	padding: 6px 20px;
+	border: 1px solid #DCE0E0;
+	border-radius: 5px;
+}
+
+.user-credencials li:nth-child(2) {
+	border-bottom: 1px solid #DCE0E0;
+}
+
+.user-credencials li {
+	font-size: 77% !important;
+}
+
+.marginRecovery {
+	margin-Top: 20px
+}
+
+table {
+	font-size: 77% !important;
+}
+
+.user-credencials button {
+	padding: 0;
+	font-size: 14px
+}
+
+.noUnderscore {
+	text-decoration: none;
+}
+
+.searchRFC {
+	width: 65%;
+	display: inline-block!important
+}
+
+.labelRFC {
+	width: 100%
+}
+
+.smallRFC {
+	width: 100%!important;
+	display: block!important;
+	margin-top: 4px;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.searchRFCButton {
+	margin-top: 2px;
+}
+
+.btnRFC {
+	width: 30%!important;
+	height: 37px!important;
+}
+
+.form-group .form-control-phone {
+	width: 41%!important;
+	margin-right: 6%!important;
+}
+
+.form-group .form-control-lada2 {
+	width: 23%;
+	float: left;
+}
+
+.radio2 {
+	position: relative;
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.form-control2 {
+	width: 63%;
+	height: 39px;
+	padding: 6px 12px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	-webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.form-control2 {
+	font-size: 18px;
+	line-height: 1.428571429;
+	color: #555;
+	display: block;
+	float: left;
+	display: inline-block!important
+}
+
+.clear-left {
+	clear: left
+}
+
+.descripcionIconos {
+	font-size: 14px;
+	list-style: none;
+	padding-left: 0px!important;
+}
+
+.descripcionIconos li {
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 0;
+	border-left: 1px dotted;
+	display: inline-block;
+}
+
+.descripcionIconos li:first-child {
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 0;
+	border-left: none;
+	display: inline-block;
+}
+
+.empresaContratista {
+	font-size: 18px;
+	Font-weight: bold;
+}
+
+legend {
+	display: block;
+	width: 100%;
+	margin-bottom: 25px;
+	font-size: 27px;
+	line-height: inherit;
+	border-bottom: 1px solid #e5e5e5;
+	font-weight: 600;
+	margin-top: 25px;
+}
+
+.placeHolderTree {
+	height: 200px;
+	border: 1px solid #ccc;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.tableWindow {
+	overflow: scroll;
+}
+
+.descripcionIconos2 {
+	font-size: 14px;
+	list-style: none;
+	padding-left: 0px!important;
+}
+
+.descripcionIconos2 li {
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.tab-content {
+	border: none !important;
+	padding: 25px 0 0 0;
+}
+
+.center {
+	display: block;
+	margin: 0 auto;
+}
+
+.noLabel {
+	margin-top: 30px!important;
+	margin-bottom: 30px;
+	line-height: 1.8;
+}
+.checkboxX{width:50%!important;display:block;float:left;}
+.checkboxX label{font-weight:300!important;}
+

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://framework-gb.cdn.gob.mx/assets/scripts/plugins.js"></script>
+	<script src="https://framework-gb.cdn.gob.mx/assets/scripts/main.js"></script>
+	<title>Bitácora electrónica y seguimiento a obra pública</title>
+	<!-- CSS -->
+	<link href="https://framework-gb.cdn.gob.mx/favicon.ico" rel="shortcut icon">
+	<link href="https://framework-gb.cdn.gob.mx/assets/styles/main.css" rel="stylesheet">
+	<link href="css/correctivos.css" rel="stylesheet" type="text/css">
+	<!-- Respond.js soporte de media queries para Internet Explorer 8 -->
+	<!-- ie8.js EventTarget para cada nodo en Internet Explorer 8 -->
+	<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/ie8/0.2.2/ie8.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+	<!-- Contenido -->
+	<main class="page">
+		<nav class="navbar navbar-inverse sub-navbar navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#subenlaces"> <span class="sr-only">Interruptor de Navegación</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand" href="/">BESOP</a> </div>
+				<div class="collapse navbar-collapse" id="subenlaces">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#">Enlace</a></li>
+						<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Desplegable <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="#">Acción</a></li>
+								<li><a href="#">Otra acción</a></li>
+								<li><a href="#">Algo más aquí</a></li>
+								<li class="divider"></li>
+								<li><a href="#">Enlace separado</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="container top-buffer-submenu">
+			<div class="row">
+				<div class="col-sm-8">
+					<ol class="breadcrumb">
+						<li><a href="#"><i class="icon icon-home"></i></a></li>
+						<li><a href="/">Inicio</a></li>
+						<li class="active">Gestión de contratistas</li>
+					</ol>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12"> <img src="images/SFP_logo.png" alt=""> <img class="pull-right" style="padding-bottom:10px;" src="images/BESOP_logo.png" alt=""> </div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-sm-12 col-xs-12 pull-right">
+					<div class="user-credencials">
+						<ul class="list-unstyled clearfix">
+							<li class="clearfix"> <span class="user-credencials__name">Patricia Vázquez Montellano</span>
+								<button type="button" class="btn btn-link pull-right">Salir</button>
+							</li>
+							<li class="clearfix"> <span class="user-credencials__name">PATINFO-RESI | Tipo: Administrador Global</span>
+								<button type="button" class="btn btn-link pull-right">Cambiar rol</button>
+							</li>
+							<li class="clearfix">
+								<button type="button" class="btn btn-link pull-right">Modificar contraseña</button>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!--Título-->
+				<div class="col-md-8 col-sm-12 top-buffer">
+					<h1>Gestión de empresas contratistas</h1> </div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 bottom-buffer">
+					<!--form starts-->
+					<div class="bottom-buffer">
+						<h2>Alta de empresas contratistas</h2>
+						<form role="form" class="clearfix">
+							<hr class="red">
+							<div class="row">
+								<div class="col-md-4">
+									<div class="radio1">
+										<label>
+											<input checked="" name="radio-01" type="radio" value="Persona física"> Persona física </label>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="radio2">
+										<label>
+											<input checked="" name="radio-02" type="radio" value="Persona moral"> Persona moral </label>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-4">
+									<div class="form-group">
+										<label class="labelRFC" for="RFC">RFC<span class="form-text">*</span>:</label>
+										<input type="text" id="RFC" class="form-control searchRFC" placeholder="Ingrese su RFC">
+										<button class="btnRFC btn btn-primary btn-sm pull-right " type="button"><span class="glyphicon glyphicon-search"></span> Buscar</button> <small class="form-text form-text-error smallRFC">Este campo es obligatorio</small></div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-4">
+									<div class="form-group">
+										<label for="name">Nombre(s)<span class="form-text">*</span>:</label>
+										<input type="text" id="name" class="form-control" placeholder="Ingrese su nombre"><small class="form-text form-text-error">Este campo es obligatorio</small> </div>
+								</div>
+								<div class="col-md-4">
+									<div class="form-group">
+										<label for="firstName">Primer apellido<span class="form-text">*</span>:</label>
+										<input type="text" id="firstName" class="form-control" placeholder="Ingrese su primer apellido"> <small class="form-text form-text-error">Este campo es obligatorio</small></div>
+								</div>
+								<div class="col-md-4">
+									<div class="form-group">
+										<label for="secondName">Segundo apellido<span class="form-text">*</span>:</label>
+										<input type="text" id="secondName" class="form-control" placeholder="Ingrese su segundo apellido"><small class="form-text form-text-error">Este campo es obligatorio</small> </div>
+								</div>
+							</div>
+							<h3 class="top-buffer bottom-buffer">Domicilio fiscal</h3>
+							<div class="row">
+								<div class="col-md-4">
+									<div class="form-group">
+										<label for="pais">País<span class="form-text">*</span>:</label>
+										<select class="form-control" id="pais">
+											<option>pais 1</option>
+											<option>pais 2</option>
+										</select> <small class="form-text form-text-error">Este campo es obligatorio</small> </div>
+								</div>
+								<div class="col-md-4">
+									<div class="form-group">
+										<label for="codigoPostal">Código postal<span class="form-text">*</span>:</label>
+										<input type="number" id="codigoPostal" class="form-control" placeholder="Código postal"><small class="form-text form-text-error">Este campo es obligatorio</small> </div>
+								</div>
+								<div class="col-md-4">
+									<div class="form-group">
+										<label for="estado">Estado<span class="form-text">*</span>:</label>
+										<select class="form-control" id="estado">
+											<option>estado 1</option>
+											<option>estado 2</option>
+										</select> <small class="form-text form-text-error">Este campo es obligatorio</small> </div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-4">
+									<div class="form-group">
+										<label for="ciudad">Ciudad<span class="form-text">*</span>:</label>
+										<select class="form-control" id="ciudad">
+											<option>ciudad 1</option>
+											<option>ciudad 2</option>
+										</select> <small class="form-text form-text-error">Este campo es obligatorio</small> </div>
+								</div>
+								<div class="col-md-4">
+									<div class="form-group">
+										<label for="localidad">Localidad o municipio<span class="form-text">*</span>:</label>
+										<select class="form-control" id="localidad">
+											<option>localidad 1</option>
+											<option>localidad 2</option>
+										</select> <small class="form-text form-text-error">Este campo es obligatorio</small> </div>
+								</div>
+								<div class="col-md-4">
+									<div class="form-group">
+										<label for="colonia">Colonia<span class="form-text">*</span>:</label>
+										<select class="form-control" id="colonia">
+											<option>colonia 1</option>
+											<option>colonia 2</option>
+										</select> <small class="form-text form-text-error">Este campo es obligatorio</small> </div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-4">
+									<div class="form-group">
+										<label for="calle">Calle<span class="form-text">*</span>:</label>
+										<input type="text" id="calle" class="form-control" placeholder="Calle"><small class="form-text form-text-error">Este campo es obligatorio</small> </div>
+								</div>
+								<div class="col-md-4">
+									<div class="form-group">
+										<label for="numeroExterior">Número exterior<span class="form-text">*</span>:</label>
+										<input type="number" id="numeroExterior" class="form-control" placeholder="Número exterior"> <small class="form-text form-text-error">Este campo es obligatorio</small></div>
+								</div>
+								<div class="col-md-4">
+									<div class="form-group">
+										<label for="numeroInterior">Número interior:</label>
+										<input type="number" id="numeroInterior" class="form-control" placeholder="Número interior"> </div>
+								</div>
+							</div>
+							<h3 class="top-buffer bottom-buffer">Información de contacto</h3>
+							<div class="row">
+								<div class="col-md-4">
+									<div class="form-group clearfix">
+										<div class="form-control-lada">
+											<label for="lada">Lada<span class="form-text">*</span>:</label>
+											<input type="number" id="lada" class="form-control" placeholder="Lada"> </div>
+										<div class="form-control-phone">
+											<label for="phone">Teléfono fijo<span class="form-text">*</span>:</label>
+											<input type="number" id="phone" class="form-control" placeholder="Teléfono fijo"> </div>
+										<div class="form-control-lada2">
+											<label for="extension">Extensión</label>
+											<input type="number" id="extension" class="form-control" placeholder="Ext."> </div>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="form-group">
+										<label for="mail">Correo electrónico<span class="form-text">*</span>:</label>
+										<input type="email" id="mail" class="form-control" placeholder="ejemplo@dominio.com"><small class="form-text form-text-error">Este campo es obligatorio</small> </div>
+								</div>
+							</div>
+							<h3 class="top-buffer bottom-buffer">Representante legal</h3>
+							<div class="row">
+								<div class="col-md-4">
+									<div class="form-group">
+										<label for="nameRep">Nombre(s)<span class="form-text">*</span>:</label>
+										<input type="text" id="nameRep" class="form-control" placeholder="Nombre del representante"><small class="form-text form-text-error">Este campo es obligatorio</small> </div>
+								</div>
+								<div class="col-md-4">
+									<div class="form-group">
+										<label for="firstNameRep">Primer apellido<span class="form-text">*</span>:</label>
+										<input type="text" id="firstNameRep" class="form-control" placeholder="Primer apellido"> <small class="form-text form-text-error">Este campo es obligatorio</small></div>
+								</div>
+								<div class="col-md-4">
+									<div class="form-group">
+										<label for="secondNameRep">Segundo apellido<span class="form-text">*</span>:</label>
+										<input type="text" id="secondNameRep" class="form-control" placeholder="Segundo apellido"><small class="form-text form-text-error">Este campo es obligatorio</small> </div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-4"> <a title="Registrar sucursales" href="#">Registrar y editar sucursales</a> </div>
+							</div>
+							<!--botones-->
+							<div class="row">
+								<div class="col-md-8 col-md-offset-4">
+									<hr> </div>
+							</div>
+							<div class="clearfix">
+								<div class="pull-right">
+									<button class="btn btn-danger" type="submit">Cancelar</button>
+									<button class="btn btn-primary" type="submit">Enviar</button>
+								</div>
+							</div>
+							<hr> </form>
+					</div>
+					<!--form ends-->
+				</div>
+			</div>
+		</div>
+	</main>
+	<!-- JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="https://framework-gb.cdn.gob.mx/gobmx.js"></script>
+	<script src="https://framework-gb.cdn.gob.mx/assets/scripts/jquery-ui-datepicker.js"></script>
+	<script type="text/javascript">
+		$gmx(document).ready(function () {
+			$.datepicker.regional.es = {
+				closeText: 'Cerrar'
+				, prevText: 'Ant'
+				, nextText: 'Sig'
+				, currentText: 'Hoy'
+				, monthNames: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']
+				, monthNamesShort: ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic']
+				, dayNames: ['Domingo', 'Lunes', 'Martes', 'Mi&eacute;rcoles', 'Jueves', 'Viernes', 'S&aacute;bado']
+				, dayNamesShort: ['Dom', 'Lun', 'Mar', 'Mi&eacute;', 'Juv', 'Vie', 'S&aacute;b']
+				, dayNamesMin: ['Dom', 'Lun', 'Mar', 'Mie', 'Jue', 'Vie', 'S&aacute;b']
+				, weekHeader: 'Sm'
+				, dateFormat: 'dd/mm/yy'
+				, firstDay: 1
+				, isRTL: false
+				, showMonthAfterYear: false
+				, yearSuffix: ''
+			};
+			$.datepicker.setDefaults($.datepicker.regional.es);
+			$("#calendar").datepicker();
+			$("#calendarYear").datepicker({
+				changeYear: true
+			});
+			$(".datepicker-example").datepicker();
+			$('[data-toggle="tooltip"]').tooltip();
+		});
+	</script>
+</body>
+
+</html>

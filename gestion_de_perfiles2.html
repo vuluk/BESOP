@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bitácora electrónica y seguimiento a obra pública</title>
+	<!-- CSS -->
+	<link href="https://framework-gb.cdn.gob.mx/favicon.ico" rel="shortcut icon">
+	<link href="https://framework-gb.cdn.gob.mx/assets/styles/main.css" rel="stylesheet">
+	<link href="css/correctivos.css" rel="stylesheet" type="text/css">
+	<!-- Respond.js soporte de media queries para Internet Explorer 8 -->
+	<!-- ie8.js EventTarget para cada nodo en Internet Explorer 8 -->
+	<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/ie8/0.2.2/ie8.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+	<!-- Contenido -->
+	<main class="page">
+		<nav class="navbar navbar-inverse sub-navbar navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#subenlaces"> <span class="sr-only">Interruptor de Navegación</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand" href="/">BESOP</a> </div>
+				<div class="collapse navbar-collapse" id="subenlaces">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#">Enlace</a></li>
+						<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Desplegable <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="#">Acción</a></li>
+								<li><a href="#">Otra acción</a></li>
+								<li><a href="#">Algo más aquí</a></li>
+								<li class="divider"></li>
+								<li><a href="#">Enlace separado</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="container top-buffer-submenu">
+			<div class="row">
+				<div class="col-sm-8">
+					<ol class="breadcrumb">
+						<li><a href="#"><i class="icon icon-home"></i></a></li>
+						<li><a href="/">Inicio</a></li>
+						<li class="active">Gestión de perfiles</li>
+					</ol>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12"> <img src="images/SFP_logo.png" alt=""> <img class="pull-right" style="padding-bottom:10px;" src="images/BESOP_logo.png" alt=""> </div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-sm-12 col-xs-12 pull-right">
+					<div class="user-credencials">
+						<ul class="list-unstyled clearfix">
+							<li class="clearfix"> <span class="user-credencials__name">Patricia Vázquez Montellano</span>
+								<button type="button" class="btn btn-link pull-right">Salir</button>
+							</li>
+							<li class="clearfix"> <span class="user-credencials__name">PATINFO-RESI | Tipo: residente</span>
+								<button type="button" class="btn btn-link pull-right">Cambiar rol</button>
+							</li>
+							<li class="clearfix">
+								<button type="button" class="btn btn-link pull-right">Modificar contraseña</button>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!--Título-->
+				<div class="col-md-8 col-sm-12 top-buffer">
+					<h1>Gestión de perfiles</h1> </div>
+			</div>
+			<!--termina título-->
+			
+				<h2>Buscar</h2>
+				<hr class="red">
+				<div class="bottom-buffer">
+					<form role="form" class="clearfix">
+						<div class="row">
+							<div class="col-md-4">
+								<div class="form-group">
+									<label for="profileName">Nombre del perfil:</label>
+									<input type="text" id="profileName" class="form-control" placeholder="Nombre de perfil"> </div>
+							</div>
+							<div class="col-md-4">
+								<div class="form-group">
+									<label for="accessLevel">Nivel de acceso:</label>
+									<select class="form-control" id="genero">
+										<option>opción 1</option>
+										<option>opción 2</option>
+									</select>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="form-group">
+									<label for="status">Estatus:</label>
+									<select class="form-control" id="status">
+										<option>opción 1</option>
+										<option>opción 2</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-8 col-md-offset-4">
+								<hr> </div>
+						</div>
+						<div class="clearfix">
+							<div class="pull-left text-muted text-vertical-align-button"> * Campos obligatorios </div>
+							<div class="pull-right">
+								<button class="btn btn-danger" type="submit">Cancelar</button>
+								<button class="btn btn-default" type="submit">Limpiar</button>
+								<button class="btn btn-default" type="submit">Nuevo</button>
+								<button class="btn btn-primary" type="submit">Buscar</button>
+							</div>
+						</div>
+						<hr> </form>
+					<div class="row">
+						<h2>Resultados</h2>
+						<ul class="descripcionIconos col-md-8">
+										<li>
+											<p><span class="glyphicon glyphicon-eye-open pull-left"></span>&nbsp;=&nbsp;Consultar usuario</p>
+										</li>
+										<li>
+											<p><span class="glyphicon glyphicon-th-list pull-left"></span>&nbsp;=&nbsp;Consultar privilegios</p>
+										</li>
+										<li>
+											<p><span class="glyphicon glyphicon-edit pull-left"></span>&nbsp;=&nbsp;Editar</p>
+										</li>
+										<li>
+											<p><span class="glyphicon glyphicon-remove pull-left"></span>&nbsp;=&nbsp;Desactivar</p>
+										</li>
+										
+									</ul>
+						<table class="table table-striped bottom-buffer">
+							<thead>
+								<tr>
+									<th>ID del perfil</th>
+									<th>Nombre del perfil</th>
+									<th>Estatus</th>
+									<th>Opciones</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th scope="row">Lorem ipsum</th>
+									<td>Fulano De Tal</td>
+									<td>Activo</td>
+									<td>
+										<button type="button" title="Consultar usuario" class="glyphicon glyphicon-eye-open btn btn-default btn-xs"></button>
+										<button type="button" title="Consultar privilegios" class="glyphicon glyphicon-th-list btn btn-default btn-xs"></button>
+										<button type="button" title="Editar" class="glyphicon glyphicon-edit btn btn-default btn-xs"></button>
+										<button type="button" title="Desactivar" class="glyphicon glyphicon-remove btn btn-default btn-xs" data-toggle="modal" data-target="#foo"></button>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row">Lorem ipsum</th>
+									<td>Fulano De Tal</td>
+									<td>Activo</td>
+									<td>
+										<button type="button" title="Consultar usuario" class="glyphicon glyphicon-eye-open btn btn-default btn-xs"></button>
+										<button type="button" title="Consultar privilegios" class="glyphicon glyphicon-th-list btn btn-default btn-xs"></button>
+										<button type="button" title="Editar" class="glyphicon glyphicon-edit btn btn-default btn-xs"></button>
+										<button type="button" title="Desactivar" class="glyphicon glyphicon-remove btn btn-default btn-xs" data-toggle="modal" data-target="#foo"></button>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row">Lorem ipsum</th>
+									<td>Fulano De Tal</td>
+									<td>Activo</td>
+									<td>
+										<button type="button" title="Consultar usuario" class="glyphicon glyphicon-eye-open btn btn-default btn-xs"></button>
+										<button type="button" title="Consultar privilegios" class="glyphicon glyphicon-th-list btn btn-default btn-xs"></button>
+										<button type="button" title="Editar" class="glyphicon glyphicon-edit btn btn-default btn-xs"></button>
+										<button type="button" title="Desactivar" class="glyphicon glyphicon-remove btn btn-default btn-xs" data-toggle="modal" data-target="#foo"></button>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row">Lorem ipsum</th>
+									<td>Fulano De Tal</td>
+									<td>Activo</td>
+									<td>
+										<button type="button" title="Consultar usuario" class="glyphicon glyphicon-eye-open btn btn-default btn-xs"></button>
+										<button type="button" title="Consultar privilegios" class="glyphicon glyphicon-th-list btn btn-default btn-xs"></button>
+										<button type="button" title="Editar" class="glyphicon glyphicon-edit btn btn-default btn-xs"></button>
+										<button type="button" title="Desactivar" class="glyphicon glyphicon-remove btn btn-default btn-xs" data-toggle="modal" data-target="#foo"></button>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			
+		</div>
+	</main>
+	<!--modal-->
+	<div id="foo" class="modal fade">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title">¿Desea desactivar el perfil?</h4> </div>
+				<div class="modal-body">
+					<p>El perfil será desactivado para los usuarios relacionados a él.</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">No</button>
+					<button type="button" class="btn btn-primary">Si</button>
+				</div>
+			</div>
+			<!-- /.modal-content -->
+		</div>
+		<!-- /.modal-dialog -->
+	</div>
+	<!-- /.modal -->
+	<!-- JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="https://framework-gb.cdn.gob.mx/gobmx.js"></script>
+</body>
+
+</html>
